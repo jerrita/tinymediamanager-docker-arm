@@ -14,4 +14,4 @@ services:
       - VNC_PASSWORD=pa5sw0rd
     volumes:
       - "./config:/config:rw"
-      - "./media:/media:rw"
+      - "../media/downloads:/media:rw"
